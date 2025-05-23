@@ -103,7 +103,7 @@ gestor-tareas/
 
 **Hernán Peinetti**
 
-[GitHub](https://github.com/TU_USUARIO) • [LinkedIn](https://www.linkedin.com/in/TU_USUARIO)
+[GitHub](https://github.com/HernanPeinetti) • [LinkedIn](https://www.linkedin.com/in/hernan-peinetti/)
 
 ---
 
