@@ -1,1 +1,7 @@
-env: node
+services:
+  - type: web
+    name: frontend
+    env: node
+    buildCommand: npm run build
+    startCommand: npx serve -s build
+    rootDir: .
