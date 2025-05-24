@@ -9,7 +9,7 @@ import taskRoutes from './routes/task.routes.js'
 dotenv.config()
 
 const app = express()
-const PORT = process.env.PORT || 3001
+
 //Middlewares
 app.use(cors())
 app.use(express.json())
@@ -22,9 +22,11 @@ app.get('/', (req, res)=>{
     res.send('Servidor Funcionando')
 })
 
-app.listen(PORT, ()=>[
-    console.log(`Servidor escuchando en http://localhost:${PORT}`)
-])
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
+});
 
 
 //Conectar con mongoDb
