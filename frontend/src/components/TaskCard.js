@@ -32,7 +32,7 @@ function TaskCard({ task, onDelete, onToggleComplete }) {
 
       <button
         onClick={() => onDelete(task._id)}
-        className="text-sm text-red-500 hover:text-red-600 font-semibold"
+        className="text-sm font-semibold text-red-500 hover:text-red-600"
       >
         Eliminar
       </button>
